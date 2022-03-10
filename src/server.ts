@@ -3,6 +3,7 @@ import { routes } from "./routes"
 
 const PORT = 8080
 const app = express()
+app.use(express.json())
 app.use(routes)
 
 app.listen(PORT, () => {

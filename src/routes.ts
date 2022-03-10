@@ -10,7 +10,7 @@ routes.get("", (req:Request,res:Response) => {
         }
     );
 })
-routes.get("/youtube/download", new YoutubeController().downloadVideo)
+routes.post("/youtube/download", new YoutubeController().downloadVideo)
 
 export { routes };
 

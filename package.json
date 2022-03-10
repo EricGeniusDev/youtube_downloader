@@ -4,6 +4,7 @@
   "description": "This api will be used as a facilitator for the youtube tool",
   "main": "server.ts",
   "scripts": {
+    "clean": "rmdir /s node_modules",
     "start": "nodemon src/server.ts"
   },
   "author": "Eric Borges",
