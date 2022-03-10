@@ -1,0 +1,11 @@
+{
+  "name": "youtube_api",
+  "version": "1.0.0",
+  "description": "This api will be used as a facilitator for the youtube tool",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Borges",
+  "license": "ISC"
+}
