@@ -1,10 +1,9 @@
 import express from "express"
-const app = express()
-const PORT = 8080
+import { routes } from "./routes"
 
-app.get('/', function (req, res) {
-  res.send('API is working')
-})
+const PORT = 8080
+const app = express()
+app.use(routes)
 
 app.listen(PORT, () => {
     console.log(`⚡️[server]: Server is running at https://localhost:${PORT}`)

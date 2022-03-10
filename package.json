@@ -4,7 +4,7 @@
   "description": "This api will be used as a facilitator for the youtube tool",
   "main": "server.ts",
   "scripts": {
-    "start": "nodemon server.ts"
+    "start": "nodemon src/server.ts"
   },
   "author": "Eric Borges",
   "license": "ISC",
